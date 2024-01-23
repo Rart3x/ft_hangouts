@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/myToolbarFooter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="-101dp"
+        tools:layout_editor_absoluteY="675dp">
+    </Toolbar>
+
+    <Button
+        android:id="@+id/callsButton"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="676dp"
+        android:onClick="callsRedirection">
+    </Button>
+
+    <Button
+        android:id="@+id/messagesButton"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="675dp"
+        android:onClick="messagesRedirection">
+    </Button>
+
+    <Button
+        android:id="@+id/contactsButton"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="675dp"
+        android:onClick="contactsRedirection">
+    </Button>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/callsImageView"-->
+<!--        android:layout_width="58dp"-->
+<!--        android:layout_height="53dp"-->
+<!--        android:src="@drawable/calls_asset"-->
+<!--        tools:layout_editor_absoluteY="677dp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/contactsImageView"-->
+<!--        android:layout_width="59dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:src="@drawable/contacts_asset"-->
+<!--        tools:layout_editor_absoluteX="30dp"-->
+<!--        tools:layout_editor_absoluteY="674dp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/messagesImageView"-->
+<!--        android:layout_width="61dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:src="@drawable/messages_asset"-->
+<!--        tools:layout_editor_absoluteX="175dp"-->
+<!--        tools:layout_editor_absoluteY="677dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

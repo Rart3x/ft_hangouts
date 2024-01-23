@@ -9,9 +9,11 @@
         android:id="@+id/myTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="History"
+        android:text="Calls"
         android:textSize="18sp"
         android:layout_centerInParent="true" />
+
+    <include layout="@layout/footer" />
 
 </RelativeLayout>
 
